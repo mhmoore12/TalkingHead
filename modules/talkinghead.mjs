@@ -2139,13 +2139,13 @@ class TalkingHead {
           }
         }
 
-        this.speechQueue.push( { break: 100 } );
+        this.speechQueue.push( { break: 50 } );
 
       }
 
     }
 
-    this.speechQueue.push( { break: 1000 } );
+    this.speechQueue.push( { break: 200 } );
 
     // Start speaking (if not already)
     this.startSpeaking();
